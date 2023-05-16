@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+			<title> Προπονητές Πρωταθλήματος Μπάσκετ </title>
+			<link rel="stylesheet" type="text/css" href="style_omada.css" />
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	</head>
+	
+		<div class='title'>
+			Προπονητές
+		</div>
+		
+		<div class='new'>
+			<form name="eisagwgh" method="POST" action='http://localhost/proponhths_insert.php'>
+				<div class='subtitle'> Εισαγωγή νέου προπονητής</div><br/>
+					ΑΜΚΑ<input type='text' name="ΑΜΚΑ" size='12'/><p/>
+                    Όνομα<input type='text' name="Όνομα" size='12'/><p/>
+					Επώνυμο<input type='text' name="Επώνυμο" size='10'/><p/>
+					Ηλικία <input type='text' name="Ηλικία" size='10'/><p/>
+					Χρόνια_εμπειρίας <input type='text' name="Χρόνια_εμπειρίας" size='11'/><p/>
+                    	
+					
+                    
+                    <input type="submit" value="Υποβολή"></div>
+			</form>
+		</div>	
+			
+		<div class='delete'>
+			<form name="diagrafh" method="POST" action='http://localhost/proponhths_delete.php'>
+				<div class='subtitle'> Διαγραφή Προπονητή </div><br/>
+					ΑΜΚΑ <input type='text' name="ΑΜΚΑ" size='10'/><p/>
+                    
+					<input type="submit" value="Διαγραφή">
+			</form>
+		</div>
+		
+		<div class='search'>
+			<form name="anazhthsh" method="POST" action='http://localhost/proponhths_search.php'>
+				<div class='subtitle'> Αναζήτηση </div><br/>
+					Όρος προς αναζήτηση <input type='text' name="something" size='50'/>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="submit" value="Αναζήτηση">
+			</form>
+		</div>	
+			
+		<div class='update'>
+			<form name="enhmerwsh" method="POST" action='http://localhost/proponhths_update.php'>
+				<div class='subtitle'> Ενημέρωση </div><br/>
+					Ενημέρωση του:	<select name="gnwrisma">
+										<option selected> - ΕΠΙΛΟΓΗ - </option>
+										<option value="ΑΜΚΑ">ΑΜΚΑ</option>
+										<option value="Όνομα">Όνομα</option>
+										<option value="Επώνυμο">Επώνυμο</option>
+										<option value="Ηλικία">Ηλικία</option>
+                                        <option value="Χρόνια_εμπειρίας">Χρόνια_εμπειρίας</option>
+                                        
+                                        
+									</select>&nbsp;&nbsp;&nbsp;&nbsp;
+					σε:				<input type='text' name="change" size='20'/><p/>			 
+όπου το Όνομα και Επώνυμο είναι:    <input type='text' name="Όνομα" size='10'/><p/>
+                                    <input type='text' name="Επώνυμο" size='10'/><p/>
+									<input type="submit" value="Ενημέρωση">
+			</form>
+		</div>		
+			
+			
+			
+			</form>
+			
+	</body>
+
+
+</html>

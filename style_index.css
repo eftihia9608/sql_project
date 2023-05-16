@@ -1,0 +1,10 @@
+.title {
+    
+    text-align:center;
+    font-size:260%;
+    
+    }
+    a:link {color:blue;}   /* unvisited link */
+    a:visited {color:purple;} /* visited link */
+    a:hover {font-family:Verdana;}   /* mouse over link */
+    a:active {font-size:104%;}  /* selected link */
